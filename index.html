@@ -3,19 +3,30 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Abdulrahman Alshoubaili — Cybersecurity & Networking</title>
-<meta name="description" content="Abdulrahman Salem Alshoubaili — Cybersecurity student at Bahrain Polytechnic University. eJPTv2 certified. Portfolio of penetration testing, SOC, networking, and GRC projects." />
+<title>Abdulrahman Alshoubaili — Cybersecurity &amp; Networking</title>
+<meta name="description" content="Abdulrahman Salem Alshoubaili — Software Engineer at the Information &amp; eGovernment Authority and final-year Cybersecurity student at Bahrain Polytechnic. eJPTv2 certified. Detection engineering, penetration testing, network design and GRC." />
+<meta name="author" content="Abdulrahman Salem Alshoubaili" />
+<meta property="og:title" content="Abdulrahman Alshoubaili — Cybersecurity &amp; Networking" />
+<meta property="og:description" content="Software Engineer at iGA and final-year Cybersecurity student. eJPTv2 certified. Detection engineering, penetration testing and network design." />
+<meta property="og:type" content="profile" />
+<meta property="og:url" content="https://abdulrahman-alshoubaili.github.io/" />
+<link rel="canonical" href="https://abdulrahman-alshoubaili.github.io/" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
+<a class="skip" href="#main">Skip to content</a>
+
 <header class="nav" id="top">
   <div class="container nav-inner">
-    <a href="#top" class="brand">A. Alshoubaili</a>
-    <nav class="nav-links">
+    <a href="#top" class="brand">
+      <span class="brand-mark">AA</span>
+      <span class="brand-name">Abdulrahman Alshoubaili</span>
+    </a>
+    <nav class="nav-links" id="nav-links" aria-label="Sections">
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
@@ -23,25 +34,27 @@
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
-    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
 
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-text">
-      <p class="eyebrow">Cybersecurity &amp; Networking</p>
+      <p class="eyebrow">Cybersecurity &amp; Networking · Bahrain</p>
       <h1>Abdulrahman Salem Alshoubaili</h1>
-      <p class="lead">Final-year ICT student majoring in Cybersecurity at Bahrain Polytechnic University. I work across both the offensive and defensive sides of security, with hands-on experience in penetration testing, SOC operations, and network design.</p>
-      <div class="badges">
-        <span class="badge">GPA 3.62 / 4.0</span>
-        <span class="badge">eJPTv2 Certified</span>
-        <span class="badge">Bahrain</span>
-        <span class="badge">Expected 2027</span>
-      </div>
+      <p class="role-line">Software Engineer at the Information &amp; eGovernment Authority <span class="sep">·</span> Final-year Cybersecurity student at Bahrain Polytechnic</p>
+      <p class="lead">I work across both sides of security — building detections and defending networks, and testing them from the attacker's side. Currently delivering government services on AWS at iGA, with a background in network engineering and DevOps.</p>
+      <ul class="badges">
+        <li class="badge">eJPTv2 Certified</li>
+        <li class="badge">GPA 3.62 / 4.0</li>
+        <li class="badge">Expected 2027</li>
+      </ul>
       <div class="hero-cta">
-        <a class="btn btn-primary" href="#projects">View Projects</a>
-        <a class="btn btn-ghost" href="assets/Abdulrahman_CV.docx" download>Download CV</a>
+        <a class="btn btn-primary" href="#projects">View projects</a>
+        <a class="btn btn-ghost" href="assets/Abdulrahman_Alshoubaili_CV.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
       </div>
       <div class="hero-links">
         <a href="https://github.com/abdulrahman-alshoubaili" target="_blank" rel="noopener">GitHub</a>
@@ -49,35 +62,39 @@
         <a href="mailto:abdulrahman.alshoubaili@gmail.com">Email</a>
       </div>
     </div>
-    <div class="hero-video">
+    <figure class="hero-video">
       <video controls playsinline poster="assets/intro-poster.jpg" preload="none">
         <source src="assets/intro.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <p class="video-cap">A short introduction</p>
-    </div>
+      <figcaption>A short introduction</figcaption>
+    </figure>
   </div>
 </section>
 
-<main>
+<main id="main">
 
 <section id="about" class="section">
   <div class="container">
     <h2 class="section-title">About</h2>
     <div class="about-grid">
-      <p>I am a final-year Cybersecurity student with three completed internships across penetration testing, offensive security, and DevOps. I have built five applied security projects and a wider portfolio spanning intrusion detection, threat hunting, network design, and governance and compliance.</p>
-      <p>I hold the eJPTv2 certification from INE and the Google Cybersecurity Professional Certificate. I am comfortable taking work from reconnaissance through to a clear, written report, and I am looking for an internship where I can contribute to real work and keep developing as a practitioner.</p>
-    </div>
-    <div class="edu-cards">
-      <div class="edu-card">
-        <h3>B.Sc. Information and Communication Technology</h3>
-        <p class="muted">Cybersecurity Major &middot; Bahrain Polytechnic University</p>
-        <p class="muted">Sep 2022 &ndash; Present &middot; GPA 3.62 / 4.0 &middot; Expected 2027</p>
+      <div class="about-text">
+        <p>I am a final-year Cybersecurity student at Bahrain Polytechnic and a Software Engineer at the Information &amp; eGovernment Authority, where I build and deploy government services on AWS and keep their CI/CD pipelines running. Before that I spent a summer as a network engineer configuring VLANs, spanning tree and OSPF across live sites.</p>
+        <p>My own work sits mostly in detection engineering. My largest project is an eleven-VM SOC built from nothing across four network phases, where I run real attacks against it and correlate evidence from host, network and forensic sources to catch them. Alongside that I hold the eJPTv2 and take an assessment from reconnaissance through to a written, severity-rated report.</p>
+        <p>I am looking for a cybersecurity or networking internship where I can contribute to real work.</p>
       </div>
-      <div class="edu-card">
-        <h3>Secondary School</h3>
-        <p class="muted">Alhidaya Alkhalifiah Secondary School</p>
-        <p class="muted">Sep 2019 &ndash; Jun 2022 &middot; Final Grade 96.1 / 100</p>
+      <div class="edu-cards">
+        <div class="edu-card">
+          <p class="edu-when">Sep 2022 — Present</p>
+          <h3>B.Sc. Information and Communication Technology</h3>
+          <p class="muted">Bahrain Polytechnic · Cybersecurity Major</p>
+          <p class="muted">GPA 3.62 / 4.0 · Expected 2027</p>
+        </div>
+        <div class="edu-card">
+          <p class="edu-when">Sep 2019 — Jun 2022</p>
+          <h3>Alhidaya Alkhalifiah Secondary School</h3>
+          <p class="muted">Final grade 96.1 / 100</p>
+        </div>
       </div>
     </div>
   </div>
@@ -88,43 +105,77 @@
     <h2 class="section-title">Experience</h2>
     <div class="timeline">
 
-      <div class="job">
+      <article class="job">
+        <div class="job-head">
+          <h3>Information &amp; eGovernment Authority (iGA)</h3>
+          <p class="role">Software Engineer</p>
+          <p class="when">Sep 2026 — Present</p>
+        </div>
+        <ul>
+          <li>Build and deploy government services on AWS (EC2, S3, Lambda, RDS) and maintain CI/CD pipelines.</li>
+          <li>Manage IAM roles and policies, and monitor resources with CloudWatch.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="job-head">
+          <h3>Bahrain Polytechnic</h3>
+          <p class="role">PASS Leader</p>
+          <p class="when">Sep 2026 — Present</p>
+        </div>
+        <ul>
+          <li>Lead Peer-Assisted Study Sessions helping students master difficult course material and prepare for exams.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="job-head">
+          <h3>Neutel Communication and Network</h3>
+          <p class="role">Network Engineer</p>
+          <p class="when">Jul 2026 — Sep 2026</p>
+        </div>
+        <ul>
+          <li>Configured VLANs, trunking, spanning tree, inter-VLAN routing, and static and OSPF routing between sites.</li>
+          <li>Troubleshot connectivity with ping, traceroute and device logs, and documented topology changes.</li>
+        </ul>
+      </article>
+
+      <article class="job">
         <div class="job-head">
           <h3>InLighnX Global Pvt. Ltd.</h3>
-          <span class="role">Offensive Cyber Security Intern</span>
-          <span class="when">Jan 2026 &ndash; Mar 2026</span>
+          <p class="role">Offensive Security Intern</p>
+          <p class="when">Jan 2026 — Mar 2026</p>
         </div>
         <ul>
           <li>Wrote a TCP port scanner in Python using socket programming to find and report open ports on target systems.</li>
           <li>Built a service banner grabber to identify running services during reconnaissance.</li>
         </ul>
-      </div>
+      </article>
 
-      <div class="job">
+      <article class="job">
         <div class="job-head">
           <h3>MK CyberCrew</h3>
-          <span class="role">Penetration Testing Intern</span>
-          <span class="when">Dec 2025 &ndash; Feb 2026</span>
+          <p class="role">Penetration Testing Intern</p>
+          <p class="when">Dec 2025 — Feb 2026</p>
         </div>
         <ul>
           <li>Ran web application security tests with manual checks and network reconnaissance, producing structured findings reports.</li>
-          <li>Worked on digital forensics cases and malware traffic analysis to understand attack behavior.</li>
-          <li>Took part in simulated SOC workflows covering detection, triage, and basic response.</li>
+          <li>Worked on digital forensics cases and malware traffic analysis to understand attack behaviour.</li>
+          <li>Took part in simulated SOC workflows covering detection, triage and basic response.</li>
         </ul>
-      </div>
+      </article>
 
-      <div class="job">
+      <article class="job">
         <div class="job-head">
           <h3>ConfidencEway</h3>
-          <span class="role">DevOps Engineer Intern</span>
-          <span class="when">Jun 2025 &ndash; Sep 2025</span>
+          <p class="role">DevOps Engineer Intern</p>
+          <p class="when">Jun 2025 — Sep 2025</p>
         </div>
         <ul>
-          <li>Set up a Datadog alert system that tracked server health and flagged critical failures automatically.</li>
-          <li>Handled log collection and SIEM-based analysis to monitor activity and catch anomalies.</li>
-          <li>Moved applications into Docker containers for more consistent releases.</li>
+          <li>Built Datadog alerting for server health and ran SIEM-based log analysis to catch anomalies.</li>
+          <li>Containerised applications with Docker for more consistent releases.</li>
         </ul>
-      </div>
+      </article>
 
     </div>
   </div>
@@ -133,12 +184,40 @@
 <section id="projects" class="section">
   <div class="container">
     <h2 class="section-title">Projects</h2>
-    <p class="section-sub">Full code, reports, and configurations are on <a href="https://github.com/abdulrahman-alshoubaili/cybersecurity-portfolio" target="_blank" rel="noopener">GitHub</a>.</p>
+    <p class="section-sub">Code, reports and configurations are on <a href="https://github.com/abdulrahman-alshoubaili" target="_blank" rel="noopener">GitHub</a>.</p>
+
+    <article class="feature">
+      <div class="feature-body">
+        <p class="tag">Detection Engineering · Featured</p>
+        <h3>SOC Detection Lab</h3>
+        <p>An eleven-VM security operations centre built from scratch and rebuilt across four network phases — flat network, routing, firewall with DMZ and NAT, then an IPsec site-to-site VPN. I run attacks against it and correlate host, infrastructure, network and forensic evidence to detect them, measuring how long each detection takes.</p>
+        <ul class="stack">
+          <li>Wazuh</li><li>Suricata</li><li>Zeek</li><li>OPNsense</li><li>VyOS</li><li>Velociraptor</li><li>Zabbix</li><li>Grafana</li>
+        </ul>
+        <a class="link" href="https://github.com/abdulrahman-alshoubaili/soc-detection-lab" target="_blank" rel="noopener">View the lab &rarr;</a>
+      </div>
+    </article>
+
     <div class="cards" id="project-cards"></div>
   </div>
 </section>
 
-<section id="certs" class="section alt">
+<section id="hackathons" class="section alt">
+  <div class="container">
+    <h2 class="section-title">Hackathons</h2>
+    <article class="hack">
+      <div class="hack-head">
+        <h3>BisB Next-Gen Islamic Investment Innovation Product Hackathon</h3>
+        <p class="when">Oct 2026</p>
+      </div>
+      <p class="muted">Bahrain Islamic Bank &amp; INJAZ Bahrain · Bahrain Polytechnic Team 3</p>
+      <p>Co-designed and pitched <strong>Zumra Pool</strong>, a Sharia-compliant pooled investment feature for the BisB app that lets customers invest from BD 10 into a managed portfolio. Presented on Day 3 and interviewed by Al-Watan.</p>
+      <a class="link" href="https://github.com/abdulrahman-alshoubaili/zumra-pool-hackathon" target="_blank" rel="noopener">View the project &rarr;</a>
+    </article>
+  </div>
+</section>
+
+<section id="certs" class="section">
   <div class="container">
     <h2 class="section-title">Certifications</h2>
     <div class="cards">
@@ -164,50 +243,49 @@
   </div>
 </section>
 
-<section id="skills" class="section">
+<section id="skills" class="section alt">
   <div class="container">
     <h2 class="section-title">Skills</h2>
     <div class="skills-grid">
       <div class="skill-group">
-        <h3>Offensive Security</h3>
-        <p>Kali Linux, Metasploit, Nmap, Burp Suite, TCP port scanning, vulnerability analysis, web application testing</p>
+        <h3>Penetration Testing</h3>
+        <p>Kali Linux, Metasploit Framework, Nmap, Burp Suite, TCP port scanning, vulnerability analysis, web application testing</p>
       </div>
       <div class="skill-group">
         <h3>Defensive Security</h3>
-        <p>SIEM, SOAR, Wazuh, Datadog, IDS, digital forensics, malware traffic analysis, log management, threat hunting</p>
+        <p>SIEM, SOAR, Wazuh, Suricata, Zeek, Velociraptor, IDS, incident response, digital forensics, threat hunting, log management</p>
       </div>
       <div class="skill-group">
         <h3>Networking</h3>
-        <p>EVE-NG, Cisco Packet Tracer, network segmentation, firewall configuration, DMZ design, TCP/IP</p>
+        <p>VLANs, trunking, spanning tree, inter-VLAN routing, OSPF, firewalls, DMZ design, IPsec VPN, EVE-NG, Cisco Packet Tracer</p>
       </div>
       <div class="skill-group">
         <h3>GRC &amp; Compliance</h3>
-        <p>Eramba, security policy management, risk assessment, control mapping, compliance mapping</p>
+        <p>Eramba, security policy management, risk assessment, control management, compliance mapping</p>
       </div>
       <div class="skill-group">
         <h3>Cloud &amp; DevOps</h3>
-        <p>Docker, AWS, Azure, virtual machines, infrastructure monitoring</p>
+        <p>AWS (EC2, S3, Lambda, RDS, IAM, CloudWatch), Azure, Docker, CI/CD, virtual machines, infrastructure monitoring</p>
       </div>
       <div class="skill-group">
         <h3>Programming &amp; Languages</h3>
-        <p>Python, Bash &middot; Arabic (Native), English (Professional)</p>
+        <p>Python, Bash · Arabic (native), English (professional)</p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="contact" class="section alt">
-  <div class="container contact">
+<section id="contact" class="section contact">
+  <div class="container">
     <h2 class="section-title">Get in touch</h2>
     <p class="section-sub">Open to cybersecurity and networking internships across the GCC.</p>
-    <div class="contact-links">
+    <div class="contact-actions">
       <a class="btn btn-primary" href="mailto:abdulrahman.alshoubaili@gmail.com">abdulrahman.alshoubaili@gmail.com</a>
-      <a class="btn btn-ghost" href="tel:+97338704706">+973 38704706</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/abdulrahman-alshoubaili-b7394b294" target="_blank" rel="noopener">Connect on LinkedIn</a>
     </div>
     <div class="hero-links center">
       <a href="https://github.com/abdulrahman-alshoubaili" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://www.linkedin.com/in/abdulrahman-alshoubaili-b7394b294" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="assets/Abdulrahman_CV.docx" download>Download CV</a>
+      <a href="assets/Abdulrahman_Alshoubaili_CV.pdf" target="_blank" rel="noopener">Download CV</a>
     </div>
   </div>
 </section>
@@ -215,8 +293,9 @@
 </main>
 
 <footer class="footer">
-  <div class="container">
-    <p>&copy; <span id="year"></span> Abdulrahman Salem Alshoubaili &middot; Bahrain</p>
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Abdulrahman Salem Alshoubaili · Bahrain</p>
+    <a href="#top" class="to-top">Back to top &uarr;</a>
   </div>
 </footer>
 
